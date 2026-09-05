@@ -1,0 +1,26 @@
+{
+  "name": "patterns-digital/sage-support",
+  "description": "Reusable, project-agnostic WordPress theme support modules (technical SEO, GTM host-gate, local update policy) shared across Patterns Digital Sage starter projects.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "wordpress",
+    "sage",
+    "seo",
+    "gtm",
+    "structured-data"
+  ],
+  "require": {
+    "php": ">=8.3"
+  },
+  "autoload": {
+    "files": [
+      "src/update-policy.php",
+      "src/tag-manager.php",
+      "src/seo.php"
+    ]
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
