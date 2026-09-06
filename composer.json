@@ -17,7 +17,10 @@
     "files": [
       "src/update-policy.php",
       "src/tag-manager.php",
-      "src/seo.php"
+      "src/seo.php",
+      "src/uploads-fallback.php",
+      "src/scf-remote-guard.php",
+      "src/plugins-audit.php"
     ]
   },
   "config": {
